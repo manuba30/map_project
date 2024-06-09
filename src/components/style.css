@@ -1,0 +1,76 @@
+/* styles.css */
+.map-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.itinerary-panel {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.itinerary-panel h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.itinerary-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.itinerary-panel li {
+  margin-bottom: 20px;
+}
+
+.itinerary-panel button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.itinerary-panel button:hover {
+  background-color: #005b4f;
+}
+
+.itinerary-panel form input[type="text"],
+.itinerary-panel form input[type="date"],
+.itinerary-panel form input[type="number"] {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.itinerary-panel form button[type="submit"] {
+  width: calc(100% - 18px);
+}
+
+.itinerary-panel form button[type="submit"]:hover {
+  background-color: #005b4f;
+}
+
+.clear-button {
+  margin-top: 10px;
+}
+
+.itinerary-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itinerary-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.itinerary-meta > div {
+  margin-bottom: 5px;
+}
